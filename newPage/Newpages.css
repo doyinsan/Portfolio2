@@ -1,0 +1,152 @@
+h1{
+text-align: center;
+border-top-style: groove;
+border-bottom-style: groove;
+border-left-style: groove;
+border-right-style: groove;
+color: blue;
+font-size: 300%;
+}
+
+h2{
+text-align: center;
+border-top-style: groove;
+border-bottom-style: groove;
+border-left-style: groove;
+border-right-style: groove;
+color: blue;
+  }
+
+
+
+h3{
+  text-align: center;
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-left-style: groove;
+  border-right-style: groove;
+  color: blue;
+}
+h4{
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-left-style: groove;
+  border-right-style: groove;
+  text-align: center;
+  color:blue;
+   /*i added the font-size tag to increase the text size*/
+  font-size: 300%;
+}
+
+ol{
+text-align: center;
+border-top-style: solid;;
+border-bottom-style: solid;;
+border-left-style: solid;
+border-right-style: solid;;
+}
+
+li{
+text-align: center;
+list-style: none;
+}
+
+p{
+text-align: center;
+}
+
+section{
+float: none;
+width: 85%;
+padding: 2%;
+margin: 5%;
+}
+ /*this is where i space my boreder around my page even if it becomes Responsive*/
+.one-third {
+  float: left;
+  width: 50%;
+  padding: 2%;
+  margin: 0 1%;
+}
+
+/*media starts here*/
+/*This is where applied my css Responsive, it has two stages.*/
+  @media only screen and (max-width : 780px){
+  nav{
+  margin: 2% auto;
+}
+
+section{
+width: 75%;
+  }
+aside {
+  width: 75%;
+}
+.one-third{
+  width: 75%;
+}
+h1{
+  font-size: 90%;
+  color: red;
+}
+h2{
+  font-size: 90%;
+color: red;
+}
+h3{
+  font-size: 90%;
+  color: red;
+}
+h4{
+  font-size: 90%;
+
+color: red;}
+h5{
+  font-size: 90%;
+  color: red;
+}
+p{
+  font-size: 80%;
+}
+
+}
+@media only screen and (max-width : 580px){
+
+  section{
+  width: 75%;
+    }
+  aside {
+    width: 75%;
+  }
+  .one-third{
+    width: 75%;
+  }
+  h1{
+    font-size: 60%;
+    color: purple;
+  }
+
+  h2{
+    font-size: 60%;
+    color: purple;
+  }
+  h3{
+    font-size: 60%;
+color: purple;
+}
+    h4{
+      font-size:60%;
+color: purple;
+    }
+    li{
+      font-size: :60%
+    }
+    h5{
+      font-size: 90%;
+      color: purple;
+    }
+
+  p{
+    font-size: 80%;
+
+}
